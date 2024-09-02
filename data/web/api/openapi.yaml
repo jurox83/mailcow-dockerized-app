@@ -988,7 +988,10 @@ paths:
         - Mailboxes
       description: >-
         You may create your own mailbox using this action. It takes a JSON
-        object containing a domain informations.
+        object containing a mailbox information.
+
+        Passwords can either be clear text or hashed passwords. For supported 
+        hash algorithms please refer to the documentation.
       operationId: Create mailbox
       requestBody:
         content:
